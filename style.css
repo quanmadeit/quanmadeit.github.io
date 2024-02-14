@@ -1,29 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:ital@0;1&family=PT+Sans&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 a {
     color: white;
     text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+}
+p {
+    font-family: "Inter", sans-serif;
 }
 body {
     margin: 0;
     background-color: #526D82;
 }
-#mysitename {
+.mysitename {
     font-family: "Kanit", sans-serif;
     font-size: 25px;
     margin: auto;
     margin-left: 5px;
+    margin-right: 35px;
     cursor: default;
 }
-#mysitename:hover {
+.mysitename:hover {
     user-select: none;
     text-shadow: 3px 0px 13px rgba(55, 115, 160, 1);
 }
 .nav-bar {
     display: flex;
+    position: fixed;
     background-color: #9DB2BF;
+    top: 0px;
     width: 100%;
     height: 50px;
 }
 .nav-bar a {
+    margin: auto 15px;
+    display: flex;
+    height: 90%;
+    align-items: center;
+    padding-right: 5px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    transition: background-color 0.5s ease 0s;
+}
+.nav-bar a:hover {
+    background-color: #74a2d2;
+}
+.content {
+    width: 90%;
+    height: 1400px;
+    background-color: #27374D;
     margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 15px;
+}
+.content p {
+    padding-left: 12px;
+    padding-top: 15px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
